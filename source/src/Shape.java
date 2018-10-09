@@ -2,9 +2,10 @@ public class Shape {
     String color = "green";
     boolean filled = true;
 
-    public Shape(){}
+    public Shape() {
+    }
 
-    public Shape(String color, boolean filled){
+    public Shape(String color, boolean filled) {
         this.color = color;
         this.filled = filled;
     }
